@@ -20,9 +20,9 @@ const Header = () => {
 
                     {/* Desktop Navigation */}
                     <nav className="md:flex flex-wrap items-center text-base justify-center hidden md:flex w-[50%]">
-                        <Link href={''} className="mr-15 hover:text-gray-900">Home</Link>
-                        <Link href={''} className="mr-15 hover:text-gray-900">Blog</Link>
-                        <Link href={''} className="mr-15 hover:text-gray-900">About</Link>
+                        <Link href={''} className="mr-10 hover:text-gray-900">Home</Link>
+                        <Link href={''} className="mr-10 hover:text-gray-900">Blog</Link>
+                        <Link href={''} className="mr-10 hover:text-gray-900">About</Link>
                     </nav>
 
                     {/* Hamburger Menu for Mobile */}
