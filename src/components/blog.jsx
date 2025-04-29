@@ -3,9 +3,9 @@ import posts from '../data/posts';
 
 export default function Home() {
   return (
-    <main className="px-52 pt-5">
-      <h1 className="text-2xl font-bold mb-6 ">My Latest Blogs</h1>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pb-10">
+    <main className="px-4 sm:px-6 lg:px-52 pt-5">
+      <h1 className="text-2xl font-bold mb-6">My Latest Blogs</h1>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 pb-10">
         {posts.map((post) => (
           <div key={post.id} className="border rounded p-4">
             <img src={post.image} className="w-full h-48 object-cover rounded" />
@@ -15,7 +15,7 @@ export default function Home() {
           </div>
         ))}
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pb-20">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 pb-10">
         {posts.map((post) => (
           <div key={post.id} className="border rounded p-4">
             <img src={post.image} className="w-full h-48 object-cover rounded" />
@@ -25,7 +25,7 @@ export default function Home() {
           </div>
         ))}
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pb-20">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 pb-10">
         {posts.map((post) => (
           <div key={post.id} className="border rounded p-4">
             <img src={post.image} className="w-full h-48 object-cover rounded" />
